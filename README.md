@@ -13,6 +13,7 @@ from state_generator import *
 from gate_sequence_generator import *
 
 circuit = ghz_state(5)
+# This is equivalent to the QuantumCircuit(5) in qiskit
 print(circuit)
 output = gate_sequence(circuit)
 print(output)
